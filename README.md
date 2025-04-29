@@ -34,7 +34,7 @@ This project detects pressure cooker whistles using two approaches:
 
 Audio files are not included in the repository due to size. You may download sample clips from:
 
-🔗 [Google Drive Folder Placeholder](#)
+🔗 [Google Drive Folder Placeholder](https://drive.google.com/drive/folders/1g0p8dNe2xTWcaKZDtPi1t3BY7Fgyd0JJ?usp=sharing)
 
 ---
 
