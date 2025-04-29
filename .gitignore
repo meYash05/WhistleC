@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Audio
+*.wav
+*.mp3
+*.m4a
+
+# Data
+*.npy
+*.csv
+
+# Models
+*.pkl
+
+# Ignore only raw data folders
+ml_python_version/data/whistle/
+ml_python_version/data/non_whistle/
+
+# System files
+.DS_Store
+Thumbs.db
+.env
