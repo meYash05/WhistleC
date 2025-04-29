@@ -1,26 +1,30 @@
-# Python cache
+# 🔁 Python bytecode & cache
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
 
-# Audio
+# 🔊 Raw audio files
 *.wav
 *.mp3
 *.m4a
 
-# Data
+# ❌ Ignore large generated files but keep final outputs
 *.npy
-*.csv
 
-# Models
+# 🧠 Ignore all .pkl EXCEPT trained model
 *.pkl
+!ml_python_version/models/Whistle_Detector_Model.pkl
 
-# Ignore only raw data folders
+# 📊 Ignore all .csv EXCEPT final dataset
+*.csv
+!ml_python_version/data/Whistle_Features.csv
+
+# 🚫 Ignore raw segment folders
 ml_python_version/data/whistle/
 ml_python_version/data/non_whistle/
 
-# System files
+# 💻 System / IDE-specific
 .DS_Store
 Thumbs.db
 .env
+.idea/
+*.iml
