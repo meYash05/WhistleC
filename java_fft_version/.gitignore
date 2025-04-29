@@ -1,0 +1,36 @@
+# Maven output directory
+/target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# IntelliJ IDEA project files
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# NetBeans project files
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/nb-gradle/
+build/
+
+# Visual Studio Code settings
+.vscode/
+
+# macOS-specific files
+.DS_Store
+
+# Java class files
+*.class
+
+# Log files
+*.log
+
